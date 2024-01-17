@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .sub-header{
+        background-color: black;
+        color: white;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        line-height: 50px;
+        
+        font-size: 20px;
+        }
+          
+        li{
+        padding: 0 22px;
+        cursor: pointer;
+        }
+          
+        li:hover{
+        background-color: rgb(24, 227, 10);
+        color: black;
+        }
+          
+        *{
+        margin: 0;
+        }
+          
+        
+        
+          
+        .content{
+        position: absolute;
+        background-color: rgb(225, 229, 220);
+        color: black;
+        width: 150px;
+        display: none;
+                  
+                 
+          
+        }
+          
+        .content > li:hover{
+        background-color: rgba(26, 230, 30, 0.941);
+        color: white;
+        }
+          
+        .hover{
+        position: relative;
+          
+          
+        
+        }
+          
+        .hover:hover .content{
+        display: block;
+        }
+        </style>
+</head>
+<body>
+    <div class="sub-header">
+        <div class="hover">
+        <li>frontend</li>
+        <div class="content">
+        <li>html</li>
+        <li>css</li>
+        <li>js</li>
+        <li>bs</li>
+        </div>
+        </div>
+        <div class="hover">
+        <li>mern stack</li>
+        <div class="content">
+        <li>express</li>
+        <li>db</li>
+        <li>node js</li>
+        <li>react js</li>
+        </div>
+        </div>
+        <div class="hover">
+        <li>python</li>
+        <div class="content">
+        <li>py 1</li>
+        <li>py 2</li>
+        <li>py 3</li>
+        <li>py 4</li>
+        </div>
+        </div>
+        <div class="hover">
+        <li>data analysis</li>
+        <div class="content">
+        <li>da 1</li>
+        <li>da 2</li>
+        <li>da 3</li>
+        <li>da 4</li>
+        </div>
+        </div>
+        <div class="hover">
+        <li>data science</li>
+        <div class="content">
+        <li>ds 1</li>
+        <li>ds 2</li>
+        <li>ds 3</li>
+        <li>ds 4</li>
+        </div>
+        </div>
+        <div class="hover">
+        <li>ui design</li>
+        <div class="content">
+        <li>ud 1</li>
+        <li>ud 2</li>
+        <li>ud 3</li>
+        <li>ud 4</li>
+        </div>
+        </div>
+        <div class="hover">
+        <li>software testing</li>
+        <div class="content">
+        <li>st 1</li>
+        <li>st 2</li>
+        <li>st 3</li>
+        <li>st 4</li>
+        </div>
+        </div>
+        
+        </div>
+        
+        <div class="banner"></div>
+</body>
+</html>
